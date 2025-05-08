@@ -37,45 +37,39 @@ Wheelsy is a full-featured vehicle selling and buying system tailored for vehicl
 ---
 
 ## Model Classes
-```java
-    1.Admin{
 
-	int adminid;
-	String name;
-	String email;
-	long contact;
-	int age;
-	String password;
-	String current_password;
-    }
+### 🔹 Admin
+- int adminid  
+- String name  
+- String email  
+- long contact  
+- int age  
+- String password  
+- String current_password  
 
-    2.User{
+### 🔹 User
+- int userid  
+- String name  
+- String email  
+- long contact  
+- int age  
+- LocalDate date_of_birth  
+- String address  
 
-	int userid;
-	String name;
-	String email;
-	long contact;
-	int age;
-	LocalDate date_of_birth;
-	String address;
-    }
+### 🔹 Vehicle
+- int vehicleid  
+- String brand  
+- String model  
+- boolean isUsed  
+- String color  
+- String milage  
+- double price  
+- String vehicle_type  
+- boolean inStock  
+- double discount  
 
-    3.Vehicle{
+### 🔹 Review
+- String customerName  
+- String feedback  
 
-	int vehicleid;
-	String brand;
-	String model;
-	boolean isUsed;
-	String color;
-	String milage;
-	double price;
-	String vehicle_type;
-	boolean inStock;
-	double discount;
-    }
-
-    4.Review{
-
-	String customerName;
-	String feedback;
-    }
+---

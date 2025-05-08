@@ -38,7 +38,7 @@ Wheelsy is a full-featured vehicle selling and buying system tailored for vehicl
 
 ## Model Classes
 ```java
- 1.Admin{
+    1.Admin{
 
 	int adminid;
 	String name;

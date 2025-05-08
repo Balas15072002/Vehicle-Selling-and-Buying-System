@@ -1,37 +1,81 @@
-# Vehicle-Selling-and-Buying-System
-Project: Vehicle Selling and Buying System
-Title: Wheelsy
-Target Audience: Families, Vehicle Enthusiasts, Business Professionals, Working Individuals, Showroom Managers, Vehicle Sellers (used & new)
-Type: B2C
-Timeline: 1 month(approximately)
-Budget: 3 lakhs
-Total Members: 3 Members
+# Wheelsy – Vehicle Selling and Buying System
 
-Feature:
+**Type:** B2B (Business-to-Business)  
+**Target Audience:**  
+- Showroom Managers  
+- Vehicle Sellers (New & Used)
 
-	---Admin---
-	
-	-Register & Login Pages
-	-Secure login for Admin with role-based access control
-	-Add, Update, and Remove Vehicle Details (New & Used)
-	-Receive Notifications when users book a vehicle
-	-Manage Discounts for vehicles
-	-Set Vehicle Availability (In Stock / Out of Stock)
-	-View Vehicle Listings with details and images
-	-Search & Filter vehicles by brand, price, type, and more
-	-Customer Support Access – View reviews and feedback 
-	-Door Delivery Management option
-	
-	---User---
+**Timeline:** Approximately 1 Month  
+**Budget:** ₹3,00,000 (3 Lakhs)  
+**Team Size:** 3 Members  
 
-	-Separate Register & Login Pages for users
-	-Browse and View New and Used Vehicles
-	-Search & Filter vehicles by type, price, brand, mileage, etc
-	-Book Vehicles (new and used) online
-	-Sell Used Vehicles by listing their details and contact info
-	-Add Feedback after purchasing a vehicle
-	-Add Vehicles to Wishlist
-	-Compare Vehicles
-	-Contact Seller or Showroom directly
-	-Apply for Vehicle Loan from the booking panel
-		
+---
+
+## Project Overview
+
+Wheelsy is a full-featured vehicle selling and buying system tailored for vehicle showrooms and registered sellers. It allows admins to manage both new and used vehicles, monitor availability, apply discounts, and handle customer feedback efficiently.
+
+---
+
+## Key Features
+
+### Admin Access
+- Secure registration and login with role-based access
+- Add, update, or remove vehicle details (new and used)
+- Set vehicle availability (In Stock / Out of Stock)
+- Manage discounts for specific vehicles
+- Receive notifications when a user books a vehicle
+
+### Vehicle Listings
+- View detailed vehicle information with images
+- Search and filter by brand, type, price, and vehicle condition (used/new)
+
+### Customer Support
+- Access customer reviews and feedback
+- Manage door delivery options
+
+---
+
+## Model Classes
+```java
+ 1.Admin{
+
+	int adminid;
+	String name;
+	String email;
+	long contact;
+	int age;
+	String password;
+	String current_password;
+    }
+
+    2.User{
+
+	int userid;
+	String name;
+	String email;
+	long contact;
+	int age;
+	LocalDate date_of_birth;
+	String address;
+    }
+
+    3.Vehicle{
+
+	int vehicleid;
+	String brand;
+	String model;
+	boolean isUsed;
+	String color;
+	String milage;
+	double price;
+	String vehicle_type;
+	boolean inStock;
+	double discount;
+    }
+
+    4.Review{
+
+	String customerName;
+	String feedback;
+    }

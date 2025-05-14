@@ -7,7 +7,7 @@
 
 **Timeline:** Approximately 1 Month  
 **Budget:** ₹3,00,000 (3 Lakhs)  
-**Team Size:** 3 Members  
+**Team Size:** 1 Members  
 
 ---
 
@@ -27,7 +27,7 @@ Wheelsy is a full-featured vehicle selling and buying system tailored for vehicl
 - Receive notifications when a user books a vehicle
 
 ### Vehicle Listings
-- View detailed vehicle information with images
+- View detailed vehicle information
 - Search and filter by brand, type, price, and vehicle condition (used/new)
 
 ### Customer Support

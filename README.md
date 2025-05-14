@@ -24,7 +24,6 @@ Wheelsy is a full-featured vehicle selling and buying system tailored for vehicl
 - Add, update, or remove vehicle details (new and used)
 - Set vehicle availability (In Stock / Out of Stock)
 - Manage discounts for specific vehicles
-- Receive notifications when a user books a vehicle
 
 ### Vehicle Listings
 - View detailed vehicle information
@@ -32,7 +31,6 @@ Wheelsy is a full-featured vehicle selling and buying system tailored for vehicl
 
 ### Customer Support
 - Access customer reviews and feedback
-- Manage door delivery options
 
 ---
 
